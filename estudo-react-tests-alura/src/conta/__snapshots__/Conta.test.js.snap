@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Componente de conta o snapshot do component deve permanecer sempre o mesmo 1`] = `
+<div
+  class="Conta-header"
+>
+  <h2>
+    Conta
+  </h2>
+  <p>
+    Saldo: 
+    <span
+      class="Saldo-valor"
+      data-testid="saldo-conta"
+    >
+      R$ 100
+    </span>
+  </p>
+  <form>
+    <div>
+      <label>
+        Depósito
+        <input
+          data-testid="transacao"
+          name="transacao"
+          type="radio"
+          value="deposito"
+        />
+      </label>
+    </div>
+    <div>
+      <label>
+        Saque
+        <input
+          data-testid="transacao"
+          name="transacao"
+          type="radio"
+          value="saque"
+        />
+      </label>
+    </div>
+    <label>
+      Valor:
+    </label>
+    <input
+      data-testid="valor"
+      name="valor"
+      type="text"
+      value="0"
+    />
+    <div>
+      <button
+        type="submit"
+      >
+        Realizar operação
+      </button>
+    </div>
+  </form>
+</div>
+`;

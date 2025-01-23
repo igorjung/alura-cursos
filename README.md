@@ -6,3 +6,4 @@ Repository with all the projects made on https://www.alura.com.br/.
 - Typescript
 - React js
 - Next.js
+- Node.js
